@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: client-newsletter
+  data:
+    mongodb:
+      port: 27017
+      host: localhost
+      database: newsletter
+
+# Configuracao da porta do servi�o de forma aleatoria
+server:
+  port: ${PORT:0}
+
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+# Mostrar Queries MongoDB no Terminal:
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
+
+# RabbitMQ - Variaveis de ambiente customizadas
+news:
+  rabbitmq:
+    exchange: news.exchange
+    routingkey: news.logs.routingkey
+    queue: news.queue

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Arquitetura-Microsservico-Netflix-RabbitMQ.iml" filepath="$PROJECT_DIR$/.idea/Arquitetura-Microsservico-Netflix-RabbitMQ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api-gateway-newsletter/api-gateway-newsletter.iml" filepath="$PROJECT_DIR$/api-gateway-newsletter/api-gateway-newsletter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-newsletter/eureka-newsletter.iml" filepath="$PROJECT_DIR$/eureka-newsletter/eureka-newsletter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logpool/logpool.iml" filepath="$PROJECT_DIR$/logpool/logpool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/newsletter-client/newsletter-client.iml" filepath="$PROJECT_DIR$/newsletter-client/newsletter-client.iml" />
+    </modules>
+  </component>
+</project>
